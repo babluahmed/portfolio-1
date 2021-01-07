@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.main-header{
+    width: 100%;
+    height:90vh;
+    background-image:url(../img/Frostwake_Hills.png);
+    background-color: blue;
+    background-blend-mode: multiply;
+}
+
+nav{
+
+}
+nav ul{
+    float: left;
+
+}
+nav ul li{
+    display:inline-block;
+    padding: 10px 10px ;
+    line-height: 20px;
+    margin-top: 30px;
+    text-transform:capitalize;
+
+
+}
+nav ul li a{
+    font-size: 13px;
+    display: block;
+    color: white;
+
+}
+.head-logo{
+   display: inline-block;
+   
+
+
+}
+.head-logo p{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: white;
+    margin-left: 100px;
+    line-height: 40px;
+    margin-top: 30px;
+
+
+}
+.another-logo{
+    float: right;
+    display: inline-block;
+
+}
+.another-logo p{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top:40px ;
+    margin-right: 30px;
+    text-decoration: underline;
+
+    
+}
+.header-content{
+    margin-top:20px;
+    padding: 20px;
+
+}
+.about{
+    margin-top: 20px;
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.about-content{
+    padding-top: 60px;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+
+}
+.btn{
+    padding: 7px 18px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+}
+.underline{
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.about:nth-child(2){
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+}
+.top{
+    font-size: 15px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+    color: blue;
+    display: inline-flex;
+}
+.about-work{
+    font-size: 60px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color:blue;
+    text-decoration: underline 1px;
+    font-weight: 500;
+}
+.bottom{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+    color:blue;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-bottom: 100px;
+    z-index: 5;
+}
+.img-box{
+    position: absolute;
+    top: 120px;
+    right: 0;
+
+    width: 200px;
+    height: 40vh;
+    margin-right: 5px;
+
+
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -5;
+
+
+}
+.about-section{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+.img-blog{
+    position: relative;
+    width: 50%;
+    height: 400px;
+    float: left;
+    display: inline-block;
+
+
+}
+.img-blog img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.about-blog{
+    position: relative;
+    padding-left: 25px;
+    display: inline-block;
+    width: 50%;
+    float: right;
+
+
+}
+.head{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 60px;
+    color: 	rgba(128,128,128,.2);
+
+
+}
+.part-1{
+    margin-top: 35px;
+}
+.part-1 h2{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 25px;
+}
+.part-1 p{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+.part-2{
+    margin-top: 40px;
+
+}
+.part-2 h2{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+
+}
+.part-2 ul{
+    padding-left: 15px;
+
+}
+.part-2 ul li{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+    word-spacing: 3px;
+    list-style:initial;
+    list-style-type: square;
+}
+.squre{
+    margin: 3px;
+    margin-right: 5px;
+    color: blue;
+    font-size: 10px;
+}
+.part-2 a{
+
+    padding: 7px 20px;
+    font-size: 10px;
+    display: inline-block;
+    font-weight: 500;
+    background-color: blue;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.part-2 ul li{
+    list-style: none;
+}
+.logobox{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    margin-bottom: -20px;
+}
+.logo{
+    margin-left: 37px;
+    text-align: center;
+    width: 38px;
+    height: 40px;
+    display: inline-block;
+     background-color:blue;
+     
+}
+.fab{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+
+.footer-section{
+    padding-top: 50px;
+    height: 400px;
+    background-color: blue;
+}
+.form{
+    display: inline-block;
+    width: 65%;
+}
+.form h2{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+::placeholder{
+     color: #fff;
+     font-size: 10px;
+     font-weight: 400;
+     /*padding-left: 6px;*/
+
+}
+.name, .email{
+    background-color: blue;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    width:calc(50% -100px);
+    padding: 7px;
+}
+.email{
+    margin-left: -3px;
+
+
+}
+.message{
+    padding: 7px;
+    background-color: blue;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    resize: none;
+    width: 87%;
+}
+.form a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 70px;
+    margin-top: 15px;
+    line-height: 15px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.address-section{
+    padding: 5px;
+    float: right;
+    display: inline-block;
+    width: 35%;
+}
+.address{
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    /*padding-top: 20px;*/
+    margin-top: 20px;
+}
+.email-address{
+    margin-top: 35px;
+    color: #fff;
+    font-size: 13px;
+
+}
+.phone{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 13px;
+
+}
+.address-logo{
+    padding-left: -;
+    margin-top: 30px;
+    padding-top: 10px;
+
+}
+.logo-1, .logo-2, .logo-3, .logo-4{
+    display: inline-block;
+    margin-left: 20px;
+}
+.icon{
+    font-size: 15px;
+}
+.main-footer{
+    height: 100px;
+
+}
+.footer-nlogo{
+    display: inline-block;
+    float: left;
+}
+.footer-logo{
+    margin-top: 30px;
+    color: blue;
+    display: inline-block;
+    font-size: 35px;
+}
+.footer-menu{
+
+}
+.footer-menu ul{
+    margin-top:25px;
+    float: right;
+    margin-right: 15px;
+}
+.footer-menu ul li{
+    list-style: none;
+    display:inline-block;
+    
+}
+.footer-menu ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    color: blue;
+    line-height: 15px;
+    display: inline-block;
+    padding: 20px 6px;
+    
+}
+
+
+
