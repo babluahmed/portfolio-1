@@ -280,6 +280,9 @@ nav ul li a{
      background-color:blue;
      
 }
+.logo a{
+    display: block;
+}
 .fab{
     display: inline-block;
     text-align: center;
@@ -321,6 +324,10 @@ nav ul li a{
     margin-right: 50px;
     width:calc(50% -100px);
     padding: 7px;
+    color: #fff;
+}
+.name, .email, .message:focus{
+    outline:none;
 }
 .email{
     margin-left: -3px;
@@ -335,6 +342,7 @@ nav ul li a{
     margin-bottom: 20px;
     resize: none;
     width: 87%;
+    color: #fff;
 }
 .form a{
     padding-top: 8px;
@@ -380,9 +388,12 @@ nav ul li a{
     padding-top: 10px;
 
 }
+.address-logo a{
+    display: inline-block;
+}
 .logo-1, .logo-2, .logo-3, .logo-4{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 .icon{
     font-size: 15px;
