@@ -23,6 +23,7 @@
     background-image:url(../img/Frostwake_Hills.png);
     background-color: blue;
     background-blend-mode: multiply;
+    overflow: hidden;
 }
 
 nav{
@@ -171,9 +172,9 @@ nav ul li a{
 }
 .about-section{
     width:100%;
-    /*max-width:1500px;*/
     height: 450px;
     margin-top: 50px;
+    overflow: hidden;
 }
 .img-blog{
     position: relative;
@@ -272,23 +273,24 @@ nav ul li a{
     margin-bottom: -20px;
 }
 .logo{
-    margin-left: 37px;
+    margin-left: 23px;
     text-align: center;
-    width: 38px;
-    height: 40px;
+    max-width: 55px;
+    width: 60px;;
+    height: 47px;
     display: inline-block;
      background-color:blue;
      
 }
 .logo a{
-    display: block;
+    display:inline-block;
 }
 .fab{
     display: inline-block;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     color: #fff;
-    margin-top: 15px;
+    padding: 15px;
 }
 
 
@@ -383,10 +385,12 @@ nav ul li a{
 
 }
 .address-logo{
-    padding-left: -;
     margin-top: 30px;
     padding-top: 10px;
 
+}
+.address-logo .fab{
+    padding: 0;
 }
 .address-logo a{
     display: inline-block;
